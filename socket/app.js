@@ -2,7 +2,7 @@ import { Server } from "socket.io";
 
 const io = new Server({
   cors: {
-    origin: "https://xestate.onrender.com",
+    origin: "https://xestate.vercel.app/",
   },
 });
 
